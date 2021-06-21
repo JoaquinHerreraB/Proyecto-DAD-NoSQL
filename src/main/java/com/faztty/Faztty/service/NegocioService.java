@@ -4,10 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.faztty.Faztty.bean.NegocioBean;
-import com.faztty.Faztty.entity.Negocio;
-import com.faztty.Faztty.entity.TipoNegocio;
-import com.faztty.Faztty.repository.NegocioRepository;
-import com.faztty.Faztty.repository.TipoNegocioRepository;
+import com.faztty.Faztty.entitySQL.Negocio;
+import com.faztty.Faztty.entitySQL.TipoNegocio;
+import com.faztty.Faztty.repositorySQL.NegocioRepository;
+import com.faztty.Faztty.repositorySQL.TipoNegocioRepository;
 
 @Service
 public class NegocioService {

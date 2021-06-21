@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\joaqu\Desktop\PROYECTO-DAD-NOSQL\Proyecto-DAD-NoSQL"/>
 			<item value="C:\Users\joaqu\Desktop\FazttyFinal\faztty-back"/>
 		</list>
 		<list key="projectNameTemplate">

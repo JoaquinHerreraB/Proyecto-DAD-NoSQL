@@ -20,12 +20,12 @@ import org.springframework.web.multipart.MultipartFile;
 
 import com.faztty.Faztty.bean.FotoBean;
 import com.faztty.Faztty.bean.ProductoBean;
-import com.faztty.Faztty.entity.Categoria;
-import com.faztty.Faztty.entity.Negocio;
-import com.faztty.Faztty.entity.Producto;
-import com.faztty.Faztty.repository.CategoriaRepository;
-import com.faztty.Faztty.repository.NegocioRepository;
-import com.faztty.Faztty.repository.ProductoRepository;
+import com.faztty.Faztty.entitySQL.Categoria;
+import com.faztty.Faztty.entitySQL.Negocio;
+import com.faztty.Faztty.entitySQL.Producto;
+import com.faztty.Faztty.repositorySQL.CategoriaRepository;
+import com.faztty.Faztty.repositorySQL.NegocioRepository;
+import com.faztty.Faztty.repositorySQL.ProductoRepository;
 
 @Service
 public class ProductoService {

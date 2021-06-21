@@ -4,8 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.faztty.Faztty.bean.CompradorBean;
-import com.faztty.Faztty.entity.Comprador;
-import com.faztty.Faztty.repository.CompradorRepository;
+import com.faztty.Faztty.entitySQL.Comprador;
+import com.faztty.Faztty.repositorySQL.CompradorRepository;
 
 @Service
 public class CompradorService {

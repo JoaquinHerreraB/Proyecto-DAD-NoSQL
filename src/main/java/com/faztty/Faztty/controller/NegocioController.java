@@ -15,18 +15,17 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.ui.Model;
 
-
-import com.faztty.Faztty.entity.Negocio;
-import com.faztty.Faztty.entity.Producto;
-import com.faztty.Faztty.entity.TipoNegocio;
-import com.faztty.Faztty.entity.Usuario;
 import com.faztty.Faztty.bean.CompradorBean;
 import com.faztty.Faztty.bean.FotoBean;
 import com.faztty.Faztty.bean.NegocioBean;
 import com.faztty.Faztty.bean.ProductoBean;
 import com.faztty.Faztty.bean.UsuarioBean;
-import com.faztty.Faztty.entity.Categoria;
-import com.faztty.Faztty.entity.Comprador;
+import com.faztty.Faztty.entitySQL.Categoria;
+import com.faztty.Faztty.entitySQL.Comprador;
+import com.faztty.Faztty.entitySQL.Negocio;
+import com.faztty.Faztty.entitySQL.Producto;
+import com.faztty.Faztty.entitySQL.TipoNegocio;
+import com.faztty.Faztty.entitySQL.Usuario;
 import com.faztty.Faztty.service.CategoriaService;
 import com.faztty.Faztty.service.CompradorService;
 import com.faztty.Faztty.service.NegocioService;

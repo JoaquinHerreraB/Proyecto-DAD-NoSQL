@@ -1,4 +1,4 @@
-package com.faztty.Faztty.entity;
+package com.faztty.Faztty.entitySQL;
 
 import java.io.Serializable;
 
@@ -8,21 +8,22 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+
 @Entity
-public class TipoNegocio implements Serializable{
+public class Categoria implements Serializable{
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
+	public Long id;
 	
 	@Column(unique = true, length = 30)
-	private String nombre;
+	public String nombre;
 	
 	@Column(unique = true, length = 500)
-	private String descripcion;
+	public String descripcion;
 
 	public Long getId() {
 		return id;

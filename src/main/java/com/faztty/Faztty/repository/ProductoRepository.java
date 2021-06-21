@@ -1,24 +1,11 @@
 package com.faztty.Faztty.repository;
 
-import org.springframework.data.repository.CrudRepository;
-import org.springframework.stereotype.Repository;
+import java.util.List;
 
-import com.faztty.Faztty.entity.Categoria;
-import com.faztty.Faztty.entity.Negocio;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
 import com.faztty.Faztty.entity.Producto;
 
-@Repository
-public interface ProductoRepository extends CrudRepository<Producto, Long>{
-
-	Iterable<Producto> findAllByOrderByPuntuacionAsc();
-
-	Iterable<Producto> findAllByCategoriaAndNegocioOrderByPuntuacionAsc(Categoria c,Negocio n);
-
-
-
-	Iterable<Producto> findAllByNegocioOrderByPuntuacionAsc(Negocio n);
-
-
-	Iterable<Producto> findAllByNegocioOrderByIdAsc(Negocio n);
-
+public interface ProductoRepository extends MongoRepository<Producto, String> {
+    // 
 }

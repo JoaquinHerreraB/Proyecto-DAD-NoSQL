@@ -6,10 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.faztty.Faztty.bean.UsuarioBean;
-import com.faztty.Faztty.entity.Usuario;
-import com.faztty.Faztty.repository.CompradorRepository;
-import com.faztty.Faztty.repository.NegocioRepository;
-import com.faztty.Faztty.repository.UsuarioRepository;
+import com.faztty.Faztty.entitySQL.Usuario;
+import com.faztty.Faztty.repositorySQL.CompradorRepository;
+import com.faztty.Faztty.repositorySQL.NegocioRepository;
+import com.faztty.Faztty.repositorySQL.UsuarioRepository;
 
 
 

@@ -1,4 +1,4 @@
-package com.faztty.Faztty.entity;
+package com.faztty.Faztty.entitySQL;
 
 import java.io.Serializable;
 

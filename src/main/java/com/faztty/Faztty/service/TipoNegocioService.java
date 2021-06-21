@@ -3,9 +3,8 @@ package com.faztty.Faztty.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-
-import com.faztty.Faztty.entity.TipoNegocio;
-import com.faztty.Faztty.repository.TipoNegocioRepository;
+import com.faztty.Faztty.entitySQL.TipoNegocio;
+import com.faztty.Faztty.repositorySQL.TipoNegocioRepository;
 
 @Service
 public class TipoNegocioService {
