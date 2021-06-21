@@ -8,6 +8,7 @@ public class UsuarioBean {
 	private String username;
 	private String password;
 	private Long id;
+	private String email;
 	public String getTipo() {
 		return tipo;
 	}
@@ -31,6 +32,12 @@ public class UsuarioBean {
 	}
 	public void setId(Long id) {
 		this.id = id;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
 	}
 	
 	
