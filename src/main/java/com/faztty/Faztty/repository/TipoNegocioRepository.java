@@ -12,4 +12,6 @@ public interface TipoNegocioRepository extends MongoRepository<TipoNegocio, Stri
 
 	Optional<TipoNegocio> findById(Long idTipo);
 
+	Iterable<TipoNegocio> findFirst10ByOrderByNombreDesc();
+
 }

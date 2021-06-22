@@ -17,6 +17,7 @@ public class TipoNegocioService {
 	}
 	
 	public Iterable<TipoNegocio> getTipoNegocios(){
-		return repo.findAll();
+		//return repo.findAll();
+		return repo.findFirst10ByOrderByNombreDesc();
 	}
 }

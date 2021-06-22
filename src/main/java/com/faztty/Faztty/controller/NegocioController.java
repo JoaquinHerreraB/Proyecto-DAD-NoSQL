@@ -32,8 +32,11 @@ import com.faztty.Faztty.service.TipoNegocioService;
 import com.faztty.Faztty.service.UsuarioService;
 
 @RestController
-@CrossOrigin("*")
+
 public class NegocioController {
+	
+	@Autowired
+	ProductoService pService;
 	
 	@Autowired
 	UsuarioService uService;
@@ -42,8 +45,7 @@ public class NegocioController {
 	TipoNegocioService tnService;
 	
 
-	@Autowired
-	ProductoService pService;
+
 	
 	@Autowired
 	CategoriaService cService;
